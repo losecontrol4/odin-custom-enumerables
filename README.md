@@ -1,3 +1,21 @@
+## What I did:
+
+This was a project in the Odin Project. I created my own functions in ruby mirroring commonly used functions within the Enumerable class. Some of these functions would only work with an Array (instead of Hashes).
+
+The fucntions I recreated can be viewd in the lib dir. The spec directory is testing files provided to me by the odin project. The functions I created a custom version of goes as follows:
+
+each
+each_with_index
+count
+all?
+any?
+none?
+map
+select
+inject (inject being the hardest by far)
+
+Everything below this line was not written by me, and was provided by the Odin project.
+
 # Custom Enumerable Project
 
 This repository complements the [Custom Enumerables Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/custom-enumerables) in the Ruby Course for The Odin Project. The goal of this project is to reimplement common methods used frequently through the enumerables module with objects like arrays and hashes. This project will also familiarize you with how to work with blocks and procs. Some starter code and specs are provided to validate the correctness of your solutions.
@@ -76,4 +94,4 @@ The following table has the methods you will need to implement along with their 
 | `Enumerable#my_none?`           | spec/my_none_spec.rb            |                                                                       |
 | `Enumerable#my_count`           | spec/my_count_spec.rb           |                                                                       |
 | `Enumerable#my_map`             | spec/my_map_spec.rb             |                                                                       |
-| `Enumerable#my_inject`          | spec/my_inject_spec.rb              
+| `Enumerable#my_inject`          | spec/my_inject_spec.rb          |
