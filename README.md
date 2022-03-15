@@ -2,7 +2,7 @@
 
 This was a project in the Odin Project. I created my own functions in ruby mirroring commonly used functions within the Enumerable class. Some of these functions would only work with an Array (instead of Hashes).
 
-The fucntions I recreated can be viewd in the lib dir. The spec directory is testing files provided to me by the odin project. The functions I created a custom version of goes as follows:
+The functions I recreated can be viewd in the lib dir. The spec directory is testing files provided to me by the odin project. The functions I created a custom version of goes as follows:
 
 each
 each_with_index
@@ -13,6 +13,8 @@ none?
 map
 select
 inject (inject being the hardest by far)
+
+This project was solid practice for working with the syntax and concepts of blocks in Ruby.
 
 Everything below this line was not written by me, and was provided by the Odin project.
 
